@@ -1,4 +1,5 @@
-
+import NavBar from './Components/NavBar/NavBar'
+import Home from './Components/Home/Home'
 import './App.css'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-    <h1>Payment Page</h1>    
+    <NavBar />
+    < Home />
     </>
   )
 }
