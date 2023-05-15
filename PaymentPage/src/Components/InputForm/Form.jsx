@@ -16,13 +16,13 @@ const Form = () => {
         let amount = 0;
         switch (selectedSubscription) {
           case 'monthly':
-            amount = 179;
-            break;
-          case 'half-yearly':
             amount = 99;
             break;
-          case 'yearly':
+          case 'half-yearly':
             amount = 149;
+            break;
+          case 'yearly':
+            amount = 179;
             break;
           default:
             break;
