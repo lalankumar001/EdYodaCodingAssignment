@@ -1,0 +1,192 @@
+.form{
+    width: 100%;
+}
+.OneDigit{
+    background-color:  #0096FF;
+     font-size: 15px;
+     font-weight: 500;
+    border-radius: 45%;
+    padding: 6px;
+    color: white;
+}
+.twoDigit{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;   
+    background-color:  #0096FF;
+    border-radius: 45%;
+    padding: 6px;
+}
+.Form_signupTab{
+    display: flex;
+    text-align: center;
+    margin-left: 17%;
+    justify-content: flex-start;
+}
+.Form_subscribeTab{
+    display: flex;
+    margin-right: 17%;
+    justify-content: flex-end;
+    margin-top: -17%;
+    text-align: center;
+}
+.Heading h1{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 0%;
+    margin-top: -2%;
+    text-align: center;
+}
+.card_first_plan{
+    background: #E7E7E7;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 8vh;
+    padding-bottom: 4%;
+}
+.card_first_plan label:first-child{
+    background: #F77171;
+    width: 35%;
+    margin-left: 45px;
+    color: white;
+    display: flex;
+}
+.Card_badge{
+    padding-left: 4%;
+    font-size: 16px;
+    background: #F77171;
+    border-radius: 0px 0px 4px 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+.price_Hidden{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(159, 158, 158);
+     margin-left: 38%;
+}
+.Price_permonth_Hidden{
+    margin-left: 81%;
+    color: rgb(159, 158, 158);
+}
+.price{
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+     margin-left: 38%;
+}
+.Price_permonth{
+    margin-left: 81%;
+}
+.card_second_plan{
+    background: #8de2a5;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+    margin-top: 1.5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 8vh;
+    padding-bottom: 4%;
+}
+
+.round{
+    border-radius: 50%;
+    border: 1px solid white;
+    background: linear-gradient(0deg, #0096FF, #0096FF),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+.card_second_plan label:first-child{
+    background: #49965f;
+    width: 35%;
+    margin-left: 45px;
+    color: white;
+    display: flex;
+}
+.Card_badge_recommended{
+    padding-left: 4%;
+    font-size: 16px;
+    background: #47BA68;
+    border-radius: 0px 0px 4px 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+.card_third_plan {
+    background: white;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+    margin-top: 1.5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 8vh;
+    padding-bottom: 0.1%;
+}
+.card_last_plan{
+    background: white;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+    margin-top: 1.5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 8vh;
+    padding-bottom: 0.1%;
+
+}
+.card_Limited_plan{
+    background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+    width: 96%;
+    margin-top: -3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 8vh;
+    color: red;
+    font-weight: bold;
+
+}
+.Offer_valid{
+    color: red;
+    font-weight: 500;
+}
+.Sub_fee{
+    margin: 5%;
+    margin-top: -2%;
+}
+.sub_priceOff{
+    margin-left: 50%;
+}
+.Button{
+    padding-left: 5%;
+    width: 100%;
+    margin-top: -2%;
+}
+.Cancel_btn{
+   align-items: center;
+   text-align: center;
+   font-size: 15px;
+   width: 40%;
+   background: #FFFFFF;
+   color: red;
+   border: 1px solid red;
+   border-radius: 5px;
+}
+.Pay_btn{
+    background: #47BA68;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    width: 45%;
+    padding: 1%;
+
+}
